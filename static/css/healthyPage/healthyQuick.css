@@ -1,0 +1,7 @@
+.healthyQuick .healthyBody .bg_slope_gray::after{
+	top: 12%;	
+	height: 88%;
+}
+.healthyQuick .page .layered{
+	z-index: 2;
+}

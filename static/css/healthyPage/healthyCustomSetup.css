@@ -1,0 +1,10 @@
+.healthyCustomSetup .healthyBody .text span.title{
+	margin-bottom: 7.5px;
+}
+.healthyCustomSetup .healthyBody .page .con{
+	line-height: 29px;
+}
+.healthyCustomSetup .healthyBody .page.bg{
+	z-index: 1;
+	margin-top: -98px;
+}

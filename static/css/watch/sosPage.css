@@ -1,0 +1,75 @@
+.sosPage .layered img{
+	margin: 0 auto;
+}
+.sosPage .page{
+	padding-bottom: 0;
+}
+.sosPage .page.bg_slope_gray{
+	padding-bottom: 40px;
+}
+.text sup{	
+	display: inline-block;
+    transform: scale(0.58);
+    width: 0px;
+    position: relative;
+    top: -4px;
+    left: 3px;
+}
+.layered .tit{
+	display: block;
+	line-height: 7px;
+	font-size: 0.09rem;
+	color: #999;
+	text-align: center;
+	width: 104%;
+	transform: scale(0.58) 
+}
+
+.sosPage .page .con{
+	margin-top: 2px;
+	line-height: 20px;
+	height: auto;
+}
+.page1 .img_box{
+	margin: 27px 0 30px;
+}
+.sosPage .page2 .section_w81{
+	margin: 17px auto 30px;
+}
+.page3 .layered .section_w454{
+	margin: 30px auto 40px;
+}
+.sosPage .page3 .section_w456{
+	margin: 40px auto;
+}
+.sosPage .page_btn{
+	position: relative;
+	width: 100%;
+	height: 4.786rem;
+	z-index: 10;
+	padding-bottom: 0;
+}
+.sosPage .page_btn .section_bg{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	z-index: -1;
+	top: 0;
+	left: 0;
+}
+.page_btn .text .title{
+	font-size: 21px;
+	color: #fff;
+}
+.page_btn .text span.next{
+	background: rgba(255,255,255,0.5);
+	color: #fff;
+	font-size: 14px;
+	border: none;
+}
+.watchBody{
+	margin-bottom: 0;
+}
+#close{
+	bottom: 30px;
+}

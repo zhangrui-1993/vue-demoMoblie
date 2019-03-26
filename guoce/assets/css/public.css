@@ -1,0 +1,418 @@
+/*全局适用样式*/
+/*@font-face {*/
+/*font-family: "PingFangSC-Regular";   !*字体名称*!*/
+/*src: url("../fonts/PingFangSC-Regular.ttf");       !*字体源文件*!*/
+/*font-style: normal;*/
+/*font-weight: normal;*/
+/*}*/
+
+/*解决在Chrome与Safari在打印页面时，出现不寻常的小字尺寸问题*/
+@media print {
+  .container {
+    width: auto;
+  }
+}
+
+@-ms-viewport {
+  width: device-width;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  /*!*使 padding border 都计算到width 内*!*/
+  /*box-sizing: border-box;*/
+  /*-moz-box-sizing: border-box; !* Firefox *!*/
+  /*-webkit-box-sizing: border-box; !* Safari *!*/
+  font-family: "Arial","Microsoft YaHei",sans-serif;
+}
+body, html {
+  /*在iOS上，当你触摸并按住触摸的目标，比如一个链接，Safari浏览器将显示链接有关的系统默认菜单。这个属性可以让你禁用系统默认菜单。*/
+  -webkit-touch-callout: none;
+  /*使页面上的字体抗锯齿,使用后字体看起来会更清晰舒服。加上之后就顿时感觉页面小清晰了。*/
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+  /* 禁用浏览器的文字大小调整功能。*/
+  -webkit-text-size-adjust: none;
+  -moz-text-size-adjust: none;
+  text-size-adjust: none;
+  /*当用户点击iOS的Safari浏览器中的链接或JavaScript的可点击的元素时，覆盖显示的高亮颜色。*/
+  /*该属性可以只设置透明度。如果未设置透明度，iOS Safari使用默认的透明度。当透明度设为0，则会禁用此属性；当透明度设为1，元素在点击时不可见。*/
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-tap-highlight-color: transparent;
+
+  /*优化文本速度、可读性、精度*/
+  text-rendering: optimizeLegibility;
+  /*在旋转元素不希望看到其背面时*/
+  -webkit-backface-visibility: hidden;
+  /*在webkit内核的浏览器上，只要输入框周围有图片，只要稍微一拖，进入输入框，就会把图片地址，或链接放入输入框*/
+  -webkit-user-drag: none;
+  /*-webkit-perspective: 1200px;*/
+  /*-moz-perspective: 1200px;*/
+  /*-ms-perspective: 1200px;*/
+  /*perspective: 1200px;*/
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, main {
+	display: block;
+} 
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*去除A标签下划线*/
+a {
+  text-decoration: none !important;
+}
+
+a:hover {
+  text-decoration: none !important;
+}
+
+/*去除ol ul li 默认样式*/
+ol, ul, li {
+  list-style: none;
+  list-style-type: none;
+}
+/*header*/
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 99999;
+  height: 70px;
+  background: #25262b;
+  font-size: 14px; 
+}
+header>nav{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+header nav>div:last-child a:hover{
+  color: #fff;
+}
+header>nav>div img {
+  vertical-align: middle;
+  width: 36px;
+}
+header>nav>div:first-child::after{
+  content: 'TM';
+  position: relative;
+  display: inline-block;
+  transform: scale(.5);
+  top: -16px;
+  left: -5px;
+  color: #fff;
+  line-height: 1;
+}
+header ul {
+  float: right;
+}
+header ul a {
+  color: rgba(255,255,255,0.4);
+  transition: color .3s;
+}
+header ul a:not(.active):hover {
+  color: #fff
+}
+header ul .active {
+  color: #fff;
+}
+/* Footer */
+
+@media screen and (min-width: 769px) {
+  header>nav>div:first-child{
+    float: left;
+    height: 70px;
+    line-height: 70px;
+    padding: 0 30px;
+  }
+  header>div:last-child{
+    position: absolute;
+    top: 70px;
+    height: 40px;
+    line-height: 40px;
+    background: rgba(37, 38, 43, 0.9);
+    width: 100%;
+    text-align: right;
+    display: none;
+  }
+  
+  header>div>div{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: none;
+  }
+  header>div>div a{
+    color: rgba(255,255,255,0.6);
+    padding: 0 2%;
+    transition: color .3s;
+  }
+  header>div>div a.active{
+    color: #fff;
+  }
+
+  header ul li {
+    display: inline-block;
+    height: 70px;
+    line-height: 70px;
+    padding:0 15px;
+  }
+  header ul li:last-child {
+    padding-right: 30px;
+  }
+  footer{
+    padding: 0 1.6%;
+    max-height: 340px;
+    background: #ededed;
+  }
+  footer .quntum-service{
+    font-weight: bold;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+  }
+  footer .quntum-service span{
+    font-weight: normal;
+  }
+  footer .quntum-service span{
+    font-size: 14px!important;
+  }
+  footer .quntum-service span>span{
+    cursor: pointer;
+  }
+  footer .quntum-service>span:last-child{
+    float: right;
+  }
+  footer>div{
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 17px 0 60px;
+    font-size: 11px;
+    position: relative;
+    height: 245px;
+  }
+  footer .crumbs {
+    display: flex;
+  }
+  footer .crumbs li {
+    flex: 1 1 1;
+    position: relative;
+  }
+  footer img{
+    width: 20px;
+    vertical-align: middle;
+  }
+  footer .crumbs li:first-child::after{
+    content: 'TM';
+    display: inline-block;
+    color: #000;
+    position: relative;
+    top: -10px;
+    left: -5px;
+    transform:scale(.6);
+  }
+  footer .crumbs li:not(:first-child)::before{
+    content: '>';
+    display: inline-block;
+    font-size: 18px;
+    vertical-align: middle;
+    padding: 0 6px;
+    color: #888;
+  }
+  footer .crumbs li:nth-child(2)::before{
+    padding: 0 6px 0 0;
+  }
+  footer .link{
+    display: flex;
+    margin-top: 15px;
+  }
+  footer .link li {
+    flex:1 1 20%;
+  }
+  footer .link div{
+    font-weight: bold;
+  }
+  footer .link li a{
+    display: block;
+    margin: 5px 0;
+    color: #999999;
+    transition: color .3s;
+  }
+  footer .link .none{
+    color: #9999995a
+  }
+  footer .footerInfo{
+    color: #999999;
+    position: absolute;
+    bottom: 3.5%;
+    width: 100%;
+  }
+  footer .footerInfo>div:first-child{
+    padding: 10px 0;
+    overflow: hidden;
+  }
+  footer .footerInfo>div:first-child::after{
+    content: '';
+    position: relative;
+    height: 1px;
+    display: block;
+    bottom: -10px;
+    background: #d6d6d6;
+  }
+  footer .footerInfo>div:last-child{
+    padding: 10px 0;
+    overflow: hidden; 
+  } 
+  footer .footerInfo>div>div a{
+    color: #666666;
+    padding: 0 10px;
+  }
+  footer .footerInfo>div>div a::after{
+    content: '';
+    height: 14px;
+    width: 1px;
+    display: inline-block;
+    background: #666666;
+    position: relative;
+    top: 3px;
+    left: 11px;
+  }
+  footer .footerInfo>div>div a:last-child::after{
+    background: transparent;
+  }
+  footer .footerTl{
+    text-align: left;
+    float: left;
+  }
+  footer .footerTl span{
+    display: inline-block;
+  }
+  footer .footerCenter {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  footer .footerTr{
+    text-align: right;
+    float: right;
+  }
+  footer .footerTr>a{
+    padding: 0!important;
+    text-align: center;
+    display: inline-block;
+  }
+  footer a:not(.none):hover{
+    color: #000!important;
+  }
+}
+
+.hide{
+  display: none;
+}
+.quntum-tm::after{
+  content: 'TM';
+  position: relative;
+  display: inline-block;
+  transform: scale(.5);
+  top: -10px;
+  left: -5px;
+  margin-right: -10px; 
+  line-height: 1;
+}
+/* 搜索框 */
+.quntum-search{
+  position: absolute;
+  width: 34.375%;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 50px;
+  display: flex;
+}
+.quntum-search>input{
+  flex: 1 1 85%;
+  padding: 15px;
+  background: rgba(255,255,255,.2);
+  border: 3px solid #f76b1c;
+  border-right: none;
+  border-top-left-radius: 7px;
+  border-bottom-left-radius: 7px;
+  color: rgba(255,255,255,.9);
+  outline: none;
+  font-size: 16px;
+  line-height: 1;
+}
+.quntum-search>input::-webkit-input-placeholder{
+  color: rgba(255,255,255,.8);
+}
+.quntum-search>input::placeholder{
+  color: rgba(255,255,255,.8);
+}
+.quntum-search>input::-moz-placeholder{
+  color: rgba(255,255,255,.8);
+}
+.quntum-search>button{
+  flex: 1 1 15%;
+  border: 3px solid #f76b1c;
+  border-top-right-radius: 7px;
+  border-bottom-right-radius: 7px;
+  outline: none;
+  background: #f76b1c;
+  color: #fff;
+  font-size: 36px;
+}
+/* 提醒弹出框 */
+.quntum-support-alertBlock{
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(0,0,0,0.1);
+  text-align: center;
+  display: none;
+  z-index: 5555;
+}
+.quntum-support-alertBlock>div{
+  background: #fff;
+  border-radius: 7px;
+  margin: 10% auto 0;
+  width: 30%;
+  height: 100px;
+  line-height: 100px;
+}
+#searchResult{
+  cursor: pointer;
+}
+#searchTip{
+  position: absolute;
+  top: calc(100% + 3px);
+  background: #fff;
+  padding: 10px 20px;
+  width: calc(100% - 40px);
+  border-radius: 7px;
+  box-shadow: 0 2px 5px 0 #f6f6f6;
+  display: none;
+  z-index: 555;
+}
+#searchTip>div{
+  color: #999;
+  padding: 5px;
+  font-size: 14px;
+}
+#searchTip a{
+  color: #000;
+  display: inline-block;
+  padding: 5px;
+}

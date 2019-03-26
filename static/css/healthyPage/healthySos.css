@@ -1,0 +1,43 @@
+.healthySos .sosPage .page_btn{
+	position: relative;
+	width: 100%;
+	height: 4.786rem;
+	z-index: 10;
+	padding-bottom: 0;
+}
+.healthySos .sosPage .page_btn .section_bg{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	z-index: -1;
+	top: 0;
+	left: 0;
+}
+.healthySos .page_btn .text .title{
+	font-size: 18px;
+	color: #fff;
+}
+.healthySos .page_btn .text span.next{
+	/*background: rgba(255,255,255,0.5);*/
+	color: #fff;
+	border: 1px solid #fff;
+	font-size: 14px;
+	width: 100px;
+	height: 28px;
+}
+.healthySos .healthyBody .page .con{
+	line-height: 29px;
+}
+.healthySos .healthyBody .pageTit .tit{
+	width: 102%;
+	margin-left: -1%;
+	margin-top: -50px;
+	transform: scale(0.6);
+}
+.healthySos .healthyBody .text span.title.red{
+	color: #d0021b;
+}
+.healthySos .page .text span.orange{
+	display: inline-block;
+	color: #f76b1c;
+}

@@ -1,0 +1,36 @@
+ #app{
+ 	overflow: auto;
+ }
+.privacyPage{
+	overflow-x: hidden;	
+}
+.page .text span{
+	height: auto;
+	line-height: 20px;
+	color: #666;
+	font-size: 14px;
+}
+.text span.title{
+	line-height: 21px;
+	font-size: 21px;
+	color: #1e1e1e;
+}
+.page .layered .section1-1{
+	width: 5.64rem;
+	margin:30px auto 0;
+}
+.page2{
+	overflow: inherit;
+}
+.page2::after{	
+  top: 0;
+  content: '';
+  position: absolute;
+  background: #f6f6f6;
+  display: block;
+  width: 200%;
+  height: 100%;
+  z-index:-1;
+  transform: rotate(7deg) translateX(-10%);
+}
+

@@ -1,0 +1,40 @@
+.quickOperation .watchBody{
+	margin-bottom: 0;
+}
+.page .text span{
+	height: auto;
+	line-height: 20px;
+	color: #666;
+	font-size: 14px;
+}
+.text span.title{
+	line-height: 21px;
+	font-size: 21px;
+	color: #1e1e1e;
+}
+.page .layered .section1-1{
+	width: 4.74rem;
+	margin:30px auto 0;
+}
+.page2{
+	overflow: inherit;
+}
+.page2::after{	
+  top: 0;
+  content: '';
+  position: absolute;
+  background: #f6f6f6;
+  display: block;
+  width: 200%;
+  height: 100%;
+  z-index:-1;
+  transform: rotate(7deg) translateX(-10%);
+}
+.bg{
+	background: #f6f6f6;
+	height: 98px;
+	/*position: relative;*/
+	margin-top: -50px;
+	z-index: -1;
+	padding-bottom: 0;
+}

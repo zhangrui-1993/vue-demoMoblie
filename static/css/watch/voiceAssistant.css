@@ -1,0 +1,54 @@
+.name{
+	color: #1e1e1e;
+	font-size: 15px;
+	display: block;
+	line-height: 15px;
+	margin: 30px 0.56rem 10px;
+}
+.tit_box{
+	display: block;
+	height:1.96rem;
+	width: 7.58rem;
+	box-sizing: border-box;
+	padding: 6px 15px;
+	line-height: 18px;
+	color: #fff;
+	font-size: 12px;
+	position: relative;
+	margin-left: 0.26rem;
+	margin-bottom: 30px;
+}
+.tit_box img{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	z-index: -1;
+}
+.page_right .name{
+	color: #1e1e1e;
+	font-size: 15px;
+	display: block;
+	line-height: 15px;
+	margin: 30px 0.56rem 10px;
+	text-align: right;
+}
+.page_right .tit_box{
+	width: 7.4rem;
+	height: 1.44rem;
+	margin-left: 2.16rem;
+}
+.bg_slope.bg_slope_gray::after{
+	top:7%;
+	height: 93%;;
+}
+.voiceAssistant .watchBody{
+	margin-bottom: 0;
+}
+.voiceAssistant .page.page1{
+	padding-bottom: 0;
+}
+.page.page_right{
+	padding-bottom: 40px;
+}

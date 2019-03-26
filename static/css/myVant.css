@@ -1,0 +1,6 @@
+*{
+	font-family: "Arial","Microsoft YaHei",sans-serif;
+}
+div.van-cell:not(:last-child)::after{
+	border-bottom: none;
+}

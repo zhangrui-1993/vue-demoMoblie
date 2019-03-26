@@ -1,0 +1,125 @@
+.section_w338.section_abs{
+	margin-left: -2.25rem;
+	z-index: 10;
+	bottom: 1.33rem;
+}
+.page .text .con{
+	line-height: 20px;
+}
+.bg_gray{
+	background: #F6F6F6;
+	border-radius: 3.5px;
+	margin: 0 0.26rem 30px;
+	width: 9.48rem;
+	padding-bottom: 30px;
+}
+.operatingSystem .page1 .bg_gray{
+	margin: 0;
+	padding-bottom: 0;
+}
+.img_tit .section_w750{
+	margin-left: -0.26rem;
+}
+.watchParts .page1 .img_tit .section_w750{
+	position: relative;
+	margin-top: 0;
+}
+.watchParts .img_tit .tit{
+	display: block;
+	width: 100%;
+	line-height: 20px;
+	margin-top: -50px;
+	text-align: center;
+	font-size: 14px;
+	color: #666;
+	position: relative;
+}
+.img_tit.img_tit1{
+	margin-top: -40px;
+} 
+.img_tit.img_tit1 .tit{
+	margin-top: -30px;
+}
+.bg_gray.margin_bottom_40{
+	margin-bottom: 40px;
+}
+.bg_gray.padding_bottom_40{
+	padding-bottom: 40px;
+}
+.padding_bottom_30px{
+	padding-bottom: 30px;
+}
+.page .text.margin_top_30{
+	margin-top: 30px;
+}
+.margin_top_25_1{
+	margin-top: -25px;
+}
+.next{
+	position: relative;
+	z-index: 1000;
+}
+
+
+/*表带配件页*/
+.watchBand .watch-bg>img:first-of-type{
+	margin-top: 30px;
+}
+.watchBand .tit{
+	width: 100%;
+	color: rgba(153,153,153,0.6);
+	font-size: 12px;
+	line-height: 20px;
+	text-align: center;
+	display: block;
+}
+.watchBand .watch-bg .section_abs.section_w521{
+	top: 0;
+	left: 2.4rem;
+}
+.watchBand .section_bg_750{
+	top: 0.5%;
+	left: -8px;
+	z-index: 100;
+	position: absolute;
+	width: 10rem;
+	height: 100%;
+}
+.watchBand .section_bg_750.bg2{
+	top: 2%;
+}
+.watchBand .section_abs.section_w220{
+	left: 6.2rem;
+	top: 3.7rem;
+}
+.rechargeStand .bg_gray{
+	width: 100%;
+	border-radius: 0;
+	margin: 0;
+}
+.rechargeStand .page .layered:first-of-type{
+	margin-bottom:30px ;
+}
+.section_abs.section_w500{
+	left: 4.5rem;
+}
+
+.rechargeStand .section_h890{
+	margin-top: -5.593rem;
+}
+.rechargeStand .section_h743{
+	margin-top: -121px;
+}
+
+.rechargeStand .section_h931{
+	margin-top: -100px;	
+}
+.rechargeStand .bg_gray.nor_padding_bottom{
+	padding-bottom: 0;
+}
+.page.nor_padding_bottom{
+	padding-bottom: 0;
+}
+.rechargeStand .watchBody{
+	margin-bottom: 0;
+}

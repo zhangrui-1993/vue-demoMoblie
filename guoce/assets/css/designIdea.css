@@ -1,0 +1,176 @@
+.quntum-mobile-content{
+  margin-top: 70px;
+}
+.quntum-mobile-content section{
+  position: relative;
+  overflow: hidden;
+}
+.quntum-mobile-content .quntum-mobile-content-title-46{
+  position: absolute;
+  font-size: 0.46rem;
+  line-height: 1.28;
+  font-weight: bold;
+  z-index: 46;
+}
+.quntum-mobile-content .quntum-mobile-content-subTitle-28{
+  position: absolute;
+  font-size: 0.28rem;
+  line-height: 1.28;
+  color: #999999;
+  z-index: 52;
+} 
+.quntum-mobile-content-image{
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.quntum-mobile-content section img{
+  position: absolute;
+  width: 100%;
+  z-index: 0;
+}
+
+/* 首页展示页 */
+.quntum-mobile-content-1{
+  height: 11.1rem;
+  background: #000000;
+}
+.quntum-mobile-content-1 .quntum-mobile-content-title-46{
+  color: #fff;
+  top: 0.8rem;
+  left: 0.6rem;
+}
+.quntum-mobile-content-1 .quntum-mobile-content-subTitle-28{
+  top: 2.05rem;
+  left: 0.6rem;
+  font-weight: bold;
+  color: #fff;
+}
+.quntum-mobile-content-1 .quntum-mobile-content-image-1{
+  z-index: 2;
+  opacity: 0;
+  transition:  opacity 1s .5s ease-out;
+}
+.quntum-mobile-content-1 .quntum-mobile-content-image-2{
+  z-index: 1;
+  opacity: 0;
+  transition:  opacity 1s 1.5s ease-out;
+}
+.quntum-mobile-content-1 .quntum-mobile-content-image-3{
+  z-index: 3;
+  opacity: 0;
+  transition:  opacity 1s 2.5s ease-out;
+}
+.quntum-mobile-content-1.active .quntum-mobile-content-image-1,.quntum-mobile-content-1.active .quntum-mobile-content-image-2,.quntum-mobile-content-1.active .quntum-mobile-content-image-3{
+  opacity: 1;
+}
+
+/* 自然而然 */
+.quntum-mobile-content-2{
+  height: 10rem;
+  background: #fff;
+}
+.quntum-mobile-content-2 .quntum-mobile-content-title-46{ 
+  top: 0.8rem;
+  left: 0.2rem;
+}
+.quntum-mobile-content-2 .quntum-mobile-content-subTitle-28{
+  top: 1.48rem;
+  left: 0.2rem;
+  line-height: 1.3;
+  font-weight: bold;
+  color: #000000;
+}
+
+/* 交错的环线 */
+.quntum-mobile-content-3{
+  height: 8.46rem;
+  background: #fff;
+}
+.quntum-mobile-content-3 .quntum-mobile-content-subTitle-28{
+  top: 0.8rem;
+  left: 0.2rem;
+  line-height: 1.3;
+  font-weight: bold;
+  color: #000000;
+}
+
+/* 双向钉扣 */
+.quntum-mobile-content-4{
+  height: 10.77rem;
+  background: #000000;
+}
+.quntum-mobile-content-4 .quntum-mobile-content-title-46{ 
+  top: 0.8rem;
+  left: 0.2rem;
+  color: #fff;
+}
+.quntum-mobile-content-4 .quntum-mobile-content-subTitle-28{
+  top: 1.48rem;
+  left: 0.2rem;
+  line-height: 1.3;
+  font-weight: bold;
+  color: #fff;
+}
+.quntum-mobile-content-4 .quntum-mobile-content-noteTip{
+  font-size: 0.2rem;
+  position: absolute;
+  width: 100%;
+  bottom: 1rem;
+  line-height: 1.5;
+  text-align: center;
+  color: rgba(255,255,255,.5);
+}
+
+/* 内环凹槽 */
+.quntum-mobile-content-5{
+  height: 6.12rem;
+  background: #fff;
+}
+.quntum-mobile-content-5 .quntum-mobile-content-title-46{ 
+  bottom: 1.55rem;
+  right: 0.2rem;
+}
+.quntum-mobile-content-5 .quntum-mobile-content-subTitle-28{
+  bottom: 1rem;
+  right: 0.2rem; 
+  font-weight: bold;
+  color: #000000;
+}
+
+/* 分体设计 */
+.quntum-mobile-content-6{
+  height: 8.08rem;
+  background: #000;
+}
+.quntum-mobile-content-6 .quntum-mobile-content-title-46{ 
+  top: 0.8rem;
+  width: 100%;
+  text-align: center;
+  color: rgba(255,255,255,.9);
+}
+.quntum-mobile-content-6 .quntum-mobile-content-subTitle-28{
+  top: 1.45rem;
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+  color: rgba(255,255,255,.8);
+}
+
+/* 时移世易 */
+.quntum-mobile-content-7{
+  height: 9.38rem;
+  background: #fff;
+}
+.quntum-mobile-content-7 .quntum-mobile-content-title-46{ 
+  top: 0.8rem;
+  left: 0.2rem;
+}
+.quntum-mobile-content-7 .quntum-mobile-content-subTitle-28{
+  top: 1.45rem; 
+  left: 0.2rem;
+  color: #000;
+  font-weight: bold; 
+}

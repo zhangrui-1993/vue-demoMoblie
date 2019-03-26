@@ -1,0 +1,551 @@
+.quntum-mobile-content{
+  margin-top: 70px;
+}
+.quntum-mobile-content section{
+  position: relative;
+  overflow: hidden;
+}
+.quntum-mobile-content .quntum-mobile-content-title-44{
+  position: absolute;
+  font-size: 0.44rem;
+  line-height: 1;
+  font-weight: bold;
+  word-spacing: 2px;
+  z-index: 44;
+}
+.quntum-mobile-content .quntum-mobile-content-title-42{
+  position: absolute;
+  font-size: 0.42rem;
+  line-height: 1;
+  font-weight: bold;
+  word-spacing: 2px;
+  z-index: 42;
+}
+.quntum-mobile-content .quntum-mobile-content-subTitle-28{
+  position: absolute;
+  font-size: 0.28rem;
+  line-height: 1;
+  color: #999999;
+  word-spacing: 2px;
+  z-index: 52;
+}
+.quntum-mobile-content .quntum-mobile-content-more{
+  position: absolute;
+  font-size: 0.28rem;
+  line-height: 1;
+  z-index: 56;
+  display: block;
+}
+.quntum-mobile-content-image{
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.quntum-mobile-content section img{
+  position: absolute;
+  width: 100%;
+  z-index: 0;
+}
+
+/* 首页展示页 */
+.quntum-mobile-content-1{
+  height: 7.42rem;
+}
+.quntum-mobile-content-1 .quntum-mobile-content-title-40{
+  top: 0.8rem;
+  right: 0.5rem;
+}
+.quntum-mobile-content-1 .quntum-mobile-content-subTitle-28{
+  top: 1.36rem;
+  right: 0.5rem;
+}
+
+/* 绿光传感器 */
+.quntum-mobile-content-2{
+  height: 9.8rem;
+}
+.quntum-mobile-content-2 .quntum-mobile-content-title-42{
+  top: 0.8rem;
+  width: 100%;
+  text-align: center;
+}
+.quntum-mobile-content-2 .quntum-mobile-content-subTitle-28{
+  top: 1.36rem;
+  width: 100%;
+  text-align: center;
+}
+.quntum-mobile-content-2 .quntum-mobile-content-more{
+  top: 1.85rem;
+  border-radius: 0.4rem;
+  border: 1px solid #f76b1c;
+  color: #f76b1c;
+  padding: 0.15rem 0.3rem;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+/* sos自动报警 */
+.quntum-mobile-content-3{
+  height: 7.73rem;
+}
+.quntum-mobile-content-3 .quntum-mobile-content-title-42{
+  top: 0.8rem;
+  width: 100%;
+  text-align: center;
+}
+.quntum-mobile-content-3 .quntum-mobile-content-subTitle-28{
+  top: 1.36rem;
+  width: 100%;
+  text-align: center;
+}
+.quntum-mobile-content-3 .quntum-mobile-content-more{
+  top: 1.85rem;
+  border-radius: 0.4rem;
+  border: 1px solid #f76b1c;
+  color: #f76b1c;
+  padding: 0.15rem 0.3rem;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+/* 多重定位 */
+.quntum-mobile-content-4{
+  height: 6.89rem;
+}
+.quntum-mobile-content-4 .quntum-mobile-content-title-42{
+  top: 0.8rem;
+  width: 100%;
+  text-align: center;
+}
+.quntum-mobile-content-4 .quntum-mobile-content-subTitle-28{
+  top: 1.36rem;
+  width: 100%;
+  text-align: center;
+} 
+
+/* 大数据 */
+.quntum-mobile-content-5{
+  height: 7.32rem;
+}
+.quntum-mobile-content-5 .quntum-mobile-content-title-42{
+  top: 0.8rem;
+  width: 100%;
+  text-align: center;
+}
+.quntum-mobile-content-5 .quntum-mobile-content-subTitle-28{
+  top: 1.36rem;
+  width: 100%;
+  text-align: center;
+} 
+
+/* 吃药提醒 */
+.quntum-mobile-content-6{
+  height: 8.56rem;
+}
+.quntum-mobile-content-6 .quntum-mobile-content-title-42{
+  top: 0.8rem;
+  width: 100%;
+  text-align: center;
+}
+.quntum-mobile-content-6 .quntum-mobile-content-subTitle-28{
+  top: 1.36rem;
+  width: 100%;
+  text-align: center;
+} 
+
+/* 语音助手 */
+.quntum-mobile-content-7{
+  height: 8.02rem;
+}
+.quntum-mobile-content-7 .quntum-mobile-content-title-42{
+  top: 0.8rem;
+  width: 100%;
+  text-align: center;
+}
+.quntum-mobile-content-7 .quntum-mobile-content-subTitle-28{
+  top: 1.36rem;
+  width: 100%;
+  text-align: center;
+  line-height: 1.2;
+}
+.quntum-mobile-content-7 .quntum-mobile-content-more{
+  top: 2.15rem;
+  border-radius: 0.4rem;
+  border: 1px solid #f76b1c;
+  color: #f76b1c;
+  padding: 0.15rem 0.3rem;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+/* 操作简便 */
+.quntum-mobile-content-8{
+  height: 7.77rem;
+}
+.quntum-mobile-content-8 .quntum-mobile-content-title-42{
+  top: 0.8rem;
+  width: 100%;
+  text-align: center;
+}
+.quntum-mobile-content-8 .quntum-mobile-content-subTitle-28{
+  top: 1.36rem;
+  width: 100%;
+  text-align: center;
+}
+.quntum-mobile-content-8 .quntum-mobile-content-more{
+  top: 1.85rem;
+  border-radius: 0.4rem;
+  border: 1px solid #f76b1c;
+  color: #f76b1c;
+  padding: 0.15rem 0.3rem;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+/* 大表盘 */
+.quntum-mobile-content-9{
+  height: 6.17rem;
+}
+.quntum-mobile-content-9 .quntum-mobile-content-title-42{
+  top: 0.8rem;
+  width: 100%;
+  text-align: center;
+}
+.quntum-mobile-content-9 .quntum-mobile-content-subTitle-28{
+  top: 1.36rem;
+  width: 100%;
+  text-align: center;
+}
+
+/* 通话功能 */
+.quntum-mobile-content-10{
+  height: 7.61rem;
+}
+.quntum-mobile-content-10 .quntum-mobile-content-title-42{
+  top: 0.8rem;
+  width: 100%;
+  text-align: center;
+}
+.quntum-mobile-content-10 .quntum-mobile-content-subTitle-28{
+  top: 1.36rem;
+  width: 100%;
+  text-align: center;
+} 
+
+/* 防水功能 */
+.quntum-mobile-content-11{
+  height: 8.2rem;
+}
+.quntum-mobile-content-11 .quntum-mobile-content-title-42{
+  top: 0.8rem;
+  width: 100%;
+  text-align: center;
+}
+.quntum-mobile-content-11 .quntum-mobile-content-subTitle-28{
+  top: 1.36rem;
+  width: 100%;
+  text-align: center;
+} 
+
+/* 大容量 */
+.quntum-mobile-content-12{
+  height: 7.59rem;
+}
+.quntum-mobile-content-12 .quntum-mobile-content-title-42{
+  top: 0.8rem;
+  width: 100%;
+  text-align: center;
+} 
+
+/* 操作系统 */
+.quntum-mobile-content-13{
+  height: 7.95rem;
+}
+.quntum-mobile-content-13 .quntum-mobile-content-title-42{
+  top: 0.8rem;
+  width: 100%;
+  text-align: center;
+}
+.quntum-mobile-content-13 .quntum-mobile-content-subTitle-28{
+  top: 1.36rem;
+  width: 100%;
+  text-align: center;
+} 
+.quntum-mobile-content-13 .quntum-mobile-content-more{
+  top: 1.85rem;
+  border-radius: 0.4rem;
+  border: 1px solid #f76b1c;
+  color: #f76b1c;
+  padding: 0.15rem 0.3rem;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+/* 配件 */
+.quntum-mobile-content-14{
+  height: 7.65rem;
+  margin: 0.1rem;
+  background: #f6f6f6;
+  border-radius: 0.07rem;
+}
+.quntum-mobile-content-14 .quntum-mobile-content-title-42{
+  top: 0.8rem;
+  width: 100%;
+  text-align: center;
+}
+.quntum-mobile-content-14 .quntum-mobile-content-subTitle-28{
+  top: 1.36rem;
+  width: 100%;
+  text-align: center;
+} 
+.quntum-mobile-content-14 .quntum-mobile-content-more{
+  top: 1.85rem;
+  border-radius: 0.4rem;
+  border: 1px solid #f76b1c;
+  color: #f76b1c;
+  padding: 0.15rem 0.3rem;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+/* 弹出框 */
+.quntum-mobile-popup{
+  position: relative;
+  top: 100%;
+  bottom:0;
+  left:0;
+  right: 0;
+  z-index: 5556;
+  padding-top: 70px;
+  background: #fff;
+  display: none;
+}
+#quntum-mobile-popup-close{
+  position: fixed;
+  bottom: 3%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 2rem;
+  padding: 0.1rem 0;
+  outline: none;
+  border-radius: 50px;
+  border: 1px solid transparent;
+  background: rgba(0,0,0,0.9);
+  color: #fff;
+  z-index: 555;
+  transition: all .3s; 
+  font-size: 0.28rem;
+}
+.quntum-mobile-popup section{
+  position: relative;
+  overflow: hidden;
+}
+.quntum-mobile-popup section>div{
+  position: relative;
+  overflow: hidden;
+}
+.quntum-mobile-popup-image{
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.quntum-mobile-popup-image img{
+  position: absolute;
+  width: 100%;
+  z-index: 1;
+}
+.quntum-mobile-popup-title-42{
+  position: absolute;
+  font-size: 0.42rem;
+  z-index: 42;
+  font-weight: bold;
+}
+.quntum-mobile-popup-title-28{
+  position: absolute;
+  font-size: 0.28rem;
+  z-index: 28;
+  color: #666666;
+  font-weight: bold;
+}
+/* 数据子页面 */
+.quntum-mobile-popup-1 .quntum-mobile-popup-block-1{
+  height: 6.68rem;
+}
+.quntum-mobile-popup-1 .quntum-mobile-popup-title-42{
+  top: 0.8rem;
+  width: 100%;
+  text-align: center;
+}
+.quntum-mobile-popup-1 .quntum-mobile-popup-title-28{
+  top: 1.45rem;
+  width: 100%;
+  text-align: center;
+}
+
+.quntum-mobile-popup-1 .quntum-mobile-popup-block-2{
+  height: 11.9rem;
+}
+.quntum-mobile-popup-watchBox{
+  background: url(../images/quntum-watch/popup1_watchBox.jpg) no-repeat;
+  background-size: 100%;
+  height: 7.27rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+.quntum-mobile-popup-watchFrame{
+  height: 7.27rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 5;
+  transition: background-image .5s;
+}
+.quntum-mobile-popup-watchFrame[data-show="1"]{
+  background: url(../images/quntum-watch/show_xinlv.png) no-repeat;
+  background-size: 100%; 
+}
+.quntum-mobile-popup-watchFrame[data-show="2"]{
+  background: url(../images/quntum-watch/show_xindian.png) no-repeat;
+  background-size: 100%; 
+}
+.quntum-mobile-popup-watchFrame[data-show="3"]{
+  background: url(../images/quntum-watch/show_xueya.png) no-repeat;
+  background-size: 100%; 
+}
+.quntum-mobile-popup-watchFrame[data-show="4"]{
+  background: url(../images/quntum-watch/show_xueyang.png) no-repeat;
+  background-size: 100%; 
+}
+.quntum-mobile-popup-watchFrame[data-show="5"]{
+  background: url(../images/quntum-watch/show_tiwen.png)no-repeat;
+  background-size: 100%; 
+}
+.quntum-mobile-popup-watchFrame[data-show="6"]{
+  background: url(../images/quntum-watch/show_huxi.png) no-repeat;
+  background-size: 100%; 
+}
+.quntum-mobile-popup-watchFrame[data-show="7"]{
+  background: url(../images/quntum-watch/show_pilaodu.png) no-repeat;
+  background-size: 100%; 
+}
+.quntum-mobile-popup-watchFrame[data-show="8"]{
+  background: url(../images/quntum-watch/show_shuimian.png) no-repeat;
+  background-size: 100%; 
+}
+.quntum-mobile-popup-watchFrame[data-show="9"]{
+  background: url(../images/quntum-watch/show_yundong.png) no-repeat;
+  background-size: 100%; 
+}
+
+.quntum-mobile-popup-controller{
+  padding: 7.27rem 0.2rem 0;
+}
+
+.quntum-mobile-popup-controller ul{
+  overflow: hidden;
+  margin: 0 auto;
+  text-align: center;
+}
+.quntum-mobile-popup-controller li{
+  float: left;
+  width: 20%;
+  margin-bottom: 0.6rem;
+}
+.quntum-mobile-popup-controller li.huxi{
+  margin-left: 10%;
+}
+.quntum-mobile-popup-controller span{
+  font-size: 0.18rem;
+  display: block;
+  transition: color .5s;
+}
+.quntum-mobile-popup-controller li.active span{
+  color: #f76b1c;
+}
+.quntum-mobile-popup-controller i{
+  width: 0.6rem;
+  height: 0.6rem;
+  display: block;
+  margin: 0 auto 0.15rem;
+  transition: background-image .5s;
+}
+.quntum-mobile-popup-controller .xinlv i{
+  background: url(../images/quntum-watch/iconH_xinlv.png) no-repeat;
+  background-size: 100%;
+}
+.quntum-mobile-popup-controller .xinlv.active i{
+  background: url(../images/quntum-watch/iconY_xinlv.png) no-repeat;
+  background-size: 100%;
+}
+.quntum-mobile-popup-controller .xindian i{
+  background: url(../images/quntum-watch/iconH_xindian.png) no-repeat;
+  background-size: 100%;
+}
+.quntum-mobile-popup-controller .xindian.active i{
+  background: url(../images/quntum-watch/iconY_xindian.png) no-repeat;
+  background-size: 100%;
+}
+.quntum-mobile-popup-controller .xueya i{
+  background: url(../images/quntum-watch/iconH_xueya.png) no-repeat;
+  background-size: 100%;
+}
+.quntum-mobile-popup-controller .xueya.active i{
+  background: url(../images/quntum-watch/iconY_xueya.png) no-repeat;
+  background-size: 100%;
+}
+.quntum-mobile-popup-controller .xueyang i{
+  background: url(../images/quntum-watch/iconH_xueyang.png) no-repeat;
+  background-size: 100%;
+}
+.quntum-mobile-popup-controller .xueyang.active i{
+  background: url(../images/quntum-watch/iconY_xueyang.png) no-repeat;
+  background-size: 100%;
+}
+.quntum-mobile-popup-controller .tiwen i{
+  background: url(../images/quntum-watch/iconH_tiwen.png) no-repeat;
+  background-size: 100%;
+}
+.quntum-mobile-popup-controller .tiwen.active i{
+  background: url(../images/quntum-watch/iconY_tiwen.png) no-repeat;
+  background-size: 100%;
+}
+.quntum-mobile-popup-controller .huxi i{
+  background: url(../images/quntum-watch/iconH_huxi.png) no-repeat;
+  background-size: 100%;
+}
+.quntum-mobile-popup-controller .huxi.active i{
+  background: url(../images/quntum-watch/iconY_huxi.png) no-repeat;
+  background-size: 100%;
+}
+.quntum-mobile-popup-controller .pilao i{
+  background: url(../images/quntum-watch/iconH_pilao.png) no-repeat;
+  background-size: 100%;
+}
+.quntum-mobile-popup-controller .pilao.active i{
+  background: url(../images/quntum-watch/iconY_pilao.png) no-repeat;
+  background-size: 100%;
+}
+.quntum-mobile-popup-controller .shuimian i{
+  background: url(../images/quntum-watch/iconH_shuimian.png) no-repeat;
+  background-size: 100%;
+}
+.quntum-mobile-popup-controller .shuimian.active i{
+  background: url(../images/quntum-watch/iconY_shuimian.png) no-repeat;
+  background-size: 100%;
+}
+.quntum-mobile-popup-controller .yundong i{
+  background: url(../images/quntum-watch/iconH_yundong.png) no-repeat;
+  background-size: 100%;
+}
+.quntum-mobile-popup-controller .yundong.active i{
+  background: url(../images/quntum-watch/iconY_yundong.png) no-repeat;
+  background-size: 100%;
+}

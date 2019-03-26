@@ -1,0 +1,66 @@
+
+.dataSubPage .img_box{
+	margin: 30px 0.26rem 0;
+	overflow: hidden;
+	width: 9.46rem;	
+}
+.dataSubPage .img_box>div{
+	width: 3.58rem;
+	float: left;
+	overflow: hidden;
+}
+.dataSubPage .img_box>div img{
+	margin-top: 0;
+}
+.dataSubPage .img_box>div .img_tips{
+	width: 100%;
+	text-align: center;
+	font-size: 14px;
+	color: #666;
+	display: block;
+	margin-top: 15px;
+}
+.dataSubPage .img_box>div:nth-of-type(2){
+	position: absolute;
+	left: 50%;
+	margin-left: -1.79rem;
+}
+.dataSubPage .img_box>div:last-of-type{
+	position: absolute;
+	right: 0;
+}
+.page{
+	padding-bottom: 0;
+}
+.page .text span.con{
+	height: auto;
+	line-height: 20px;
+}
+.page2 .section_w303{
+	margin: 30px auto;
+}
+.page3 .layered{
+	margin: 0 0.26rem 0;
+	width: 9.46rem;	
+}
+.page3 .layered:last-of-type{
+	margin-bottom: 180px;
+}
+.page3 .layered>div{
+	width: 25%;
+	float: left;
+	text-align: center;
+	margin-bottom: 30px;
+	color: #1E1E1E;
+	font-size: 14px;
+}
+.page3 .layered>div img{
+	margin: 0 auto 10px;
+}
+.page3 .layered>div.active{	
+	color: #F76B1C;
+}
+.page3{
+	overflow: hidden;
+	margin-bottom: 50px;
+}

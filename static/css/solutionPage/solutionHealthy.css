@@ -1,0 +1,152 @@
+.solutionhealty .page{
+	padding-bottom: 0;
+}
+.solutionhealty .page.bg_gray{
+	border: none;
+	margin: 0;
+}
+.solutionhealty .layered .text.section_abs{
+	z-index: 101;
+	left: 0;
+	text-align: left;
+	box-sizing: border-box;
+	padding:0 0.26rem;
+	margin-top: 48px;
+}
+.solutionhealty .layered .section_abs.text .con{
+	line-height: 24px;
+	color: #000;
+} 
+.solutionhealty .banner ul{
+	height: 5px;
+	width: 250px;
+	margin: 15px auto 0;
+}
+.solutionhealty .banner ul li{
+	display: inline-block;
+	float: left;
+	width: 47px;
+	height: 5px;
+	margin-left: 10px;	
+	border-radius:5px;
+	background: rgba(247,107,28,0.5);
+}
+.solutionhealty .banner ul li.sel{
+	background: #F76B1C;
+}
+.solutionhealty ul{
+	box-sizing: border-box;
+	padding:0 0.26rem;
+	margin-top: 20px;
+}
+.solutionhealty .pain_spot ul li img{
+	display: inline-block;
+	width: 30px;
+	margin: 15px 15px 15px 21px ;
+	float: left;
+}
+.solutionhealty .pain_spot ul li:nth-of-type(2) img{
+	width: 37px;
+	margin: 14px 15px 14px 15px;
+}
+.solutionhealty .pain_spot ul li{
+	width: 100%;
+	background: #f6f6f6;
+	text-align: left;
+	font-size: 14px;
+	line-height: 60px;
+	height: 60px;
+	margin-bottom: 10px;
+	border-radius: 3.5px;
+}
+.solutionhealty .pain_spot ul li:last-of-type{
+	margin-bottom: 0;
+}
+.solutionhealty .section_abs{
+	left: 0;
+	top: 0;
+}
+.solutionhealty .text span.title.text_align_center{
+	text-align: center;
+	line-height: 24px;
+}
+.solutionhealty .layered .section_abs.tit{
+	display: block;
+	line-height:20px;
+	color:#999;
+	text-align: center;
+	width: 100%;
+}
+.tit_text{
+	bottom: 0;
+	top: -90px;
+}
+.scene .tit_text .tit.section_abs{
+	width: 106%;
+	margin-left: -3%;
+	text-align: center;
+	transform: scale(0.8);
+	margin-top: 15px;
+}
+.solutionhealty .advantage.page .text{
+	margin-top: 0;
+}
+.solutionhealty .page.advantage{
+	margin-bottom: -10px;
+}
+.solutionhealty .advantage ul {
+	margin: 20px 0 0;
+}
+.solutionhealty .advantage li{
+	width: 4.6rem;
+	float: left;
+	text-align: center;
+	background: #F6F6F6;
+	border-radius: 3.5px;
+	margin-bottom: 10px;
+	height: 149px;
+}
+.solutionhealty .advantage li img{
+	width: 1.05rem;
+	height: 0.906rem;	
+	display: block;
+	margin: 35px auto 15px;
+}
+.solutionhealty .advantage li:last-of-type img{
+	display: block;
+	margin: 35px auto 15px;
+	width: 0.93rem;
+	height: 0.906rem;
+}
+.solutionhealty .advantage li:nth-of-type(2n){
+	float: right;
+}
+.solutionhealty .advantage li:last-of-type{
+	margin-bottom: 0;
+}
+.solutionhealty .advantage ul span{
+	line-height: 16px;
+	font-size: 13px;
+	color: #666;
+}
+.solutionhealty .function{
+	margin-bottom: 40px;
+	
+}
+.solutionhealty .function .text span.title{
+	margin-bottom: 0;
+}
+.solutionhealty .function ul{
+	overflow: hidden;
+	margin-top: 0;
+}
+.solutionhealty .function li img{
+	width: 1.2rem;
+	display: block;
+	margin: 30px auto 10px;
+}
+.solutionhealty .function li{
+	width: 33%;
+	float: left;
+	text-align: center;
+}

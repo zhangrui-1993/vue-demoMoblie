@@ -1,0 +1,136 @@
+.page_bg_black{
+	background: #000000;
+	padding-bottom: 0;
+}
+.page_bg_black .layered:first-of-type{
+	z-index: 100;
+}
+.page .text .title{
+	font-size: 23px;
+	line-height: 30px;
+	height: auto;	
+	margin-bottom: 12px;
+}
+.page .text .con{
+	font-size: 14px;
+	line-height: 20px;
+	height: auto;
+}
+.page_bg_black .text,.page_bg_white .text{
+	width: 8.4rem;
+	margin:40px 0.8rem 0;
+	text-align: left;
+}
+.page_bg_black .text .title{
+	color: #fefefe;
+}
+.page_bg_black .text .con{
+	color: #fff;
+}
+.page_bg_white .text{
+	margin-top: 40px;
+}
+.page_bg_white .text .title{
+	color: #010101;
+}
+.page_bg_white .text .con{
+	color: #000000;
+}
+.page.page_bg_black .section1-1{
+	margin-top: -76px;
+	width: 10rem;
+}
+.page.page_bg_black .section1-2{
+	width: 4.22rem;
+	position: absolute;
+	left: 3.05rem;
+	top: 3.97rem;
+	
+}
+.page_bg_white .section1-1{
+	width: 9.64rem;
+	margin: 30px auto 0;
+}
+.page.page4 .layered:nth-of-type(2){
+	height: 11rem;
+}
+.page.page4 .section4-1{
+	position: absolute;
+	width: 7.61rem;
+	left: 1.195rem;
+	top: 0;
+}
+.page.page4 .section4-2{
+	width: 5.57rem;
+	position: absolute;
+	left: 2.8rem;
+	top: -25px;
+}
+.page.page4 .tit{
+	position: absolute;
+	bottom: 52px;
+	width: 100%;
+	color: rgba(255,255,255,0.5);
+	font-size: 10px;
+	line-height: 20px;
+	text-align: center;
+}
+.page5 {
+	padding-bottom: 100px;
+}
+.page5 .section1-1{
+	width: 8.16rem;
+	left: 0;
+	margin: 0;
+}
+.page5 .section5-2{
+	left: 5.16rem;
+	width: 2.96rem;
+	top: 2.93rem;
+	position: absolute;
+}
+.page5 .text{
+	position: absolute;
+	bottom: -50px;
+	text-align: right;
+	right: 0.267rem;
+	width: 100%;
+	margin: 0 0.267rem 0 0;
+}
+.page6.page_bg_black .text{
+	text-align: center;
+}
+.page.page_bg_black.page6 .section1-1{
+	
+	width: 6.08rem;
+	margin: 80px auto 0;
+}
+.page6.page_bg_black .text .title{
+	color: #fff;
+}
+.page7.page_bg_white .section1-1{
+	width: 7.2rem;
+	margin: 30px auto 0;
+}
+.page7.page_bg_white{
+	padding-bottom: 0;
+}
+.watchBody{
+	margin-bottom: 0;
+}
+.section7-bg{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 10rem;
+	height: 100%;
+}
+.secion6_bg{
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+}
+.page6 .layered{
+	z-index: 2;
+}

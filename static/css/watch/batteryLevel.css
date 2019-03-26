@@ -1,0 +1,19 @@
+.batteryLevel .watchBody{
+	margin-bottom: 0;
+}
+.page .text span{
+	line-height: 20px;
+}
+.text span.title{
+	color: #1e1e1e;
+}
+.layered .section1-1{
+	margin: 30px auto 0;
+}
+.bg_slope_gray::after{
+	top: 12%;
+}
+.batteryLevel .bg_slope_gray:after{
+	height: 87%;
+	top: 13%;
+}

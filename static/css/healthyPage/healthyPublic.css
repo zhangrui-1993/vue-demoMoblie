@@ -1,0 +1,81 @@
+.healthyBody .page{
+	padding-bottom: 0;
+}
+.healthyBody .page .layered.bg_gray{
+	margin: 0;
+	padding-bottom: 0;
+}
+.healthyBody .text span.title{
+	margin-bottom: 7.5px;
+}
+.healthyBody .page .text .con{
+	line-height: 29px;
+}
+.healthyBody .page.bg{
+	z-index: 1;
+	margin-top: -98px;
+}
+.healthyBody .bg_slope_gray::after{
+	z-index: 1;
+	top: 8%;
+	height: 92%;
+}
+.healthyPage .healthyBody .page .text .con{
+	line-height: 20px;
+	color: #808080;
+}
+.healthyPage .healthyBody .page .text span.title{
+	margin-bottom: 7px;
+	color: #1e1e1e;
+}
+.healthyBody .text span.how{
+	margin-top: 12px;
+}
+.healthyBody .page .text span.next{
+	margin-top: 12px;
+}
+.healthyBody .page .layered .section_rel{
+	position: relative;
+	z-index: 100;
+}
+.healthyBody .download{
+	display: block;
+}
+.healthyBody .download span{
+	float: left;
+}
+.healthyBody .section_abs{
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 99;
+}
+.healthyBody .section_abs.text{
+	z-index: 101;
+}
+.healthyBody .pageTit .tit{
+	display: block;
+	text-align: center;
+	font-size: 12px;
+	line-height: 16px;
+	color: #999;
+	transform: scale(0.833);
+	margin-top:-78px ;
+	margin-bottom: 30px;
+}
+.healthyBody .text span.how{
+	width: 10rem;
+	position: relative;
+	text-align: center;
+}
+.healthyBody .text span.how.bridge_how{
+	width: 9.6rem;
+}
+.healthyBody .bridge{
+	width: 0.4rem;
+	float: left;
+	position: absolute;
+	left: 50%;
+	margin-left: 70px;
+	top: 3px;
+}

@@ -1,0 +1,48 @@
+.earlyWarningReport .section_abs.text .tit_text span{
+	width: 5.2rem;
+	right: 0.26rem;
+	font-size: 14px;
+	line-height: 30px;
+	position: relative;
+}
+.earlyWarningReport .section_abs.text .tit_text span .greenTit{
+	margin-top: 80px;
+}
+.earlyWarningReport .section_abs.text .tit_text span .orange{
+	display: inline-block;
+	color: #F76B1C;
+}
+.earlyWarningReport .healthyBody .page .text .con span{
+	display: inline-block;
+}
+.page .text span.green{
+	color: #7ED321;
+}
+.page .text span.orange{
+	color: #f5a623;
+}
+.page .text span.red{
+	color: #d0021b;
+}
+.earlyWarningReport p.text.tit{
+	margin-top: 0;
+}
+.earlyWarningReport .healthyBody .page .text .con.page1_top{
+	margin-top: 8.8rem;
+}
+.earlyWarningReport p.text.tit.section_w430{
+	width: 5.73rem;
+	text-align: left;
+	left: 2.135rem;
+}
+.earlyWarningReport .healthyBody .bg_slope_gray::after{
+	transform: rotate(-7deg) translateX(-10%);
+	top: -7%;
+	height: 100%;
+}
+.earlyWarningReport .healthyBody .text span.title.margin_bottom_set{
+	margin-bottom: 22.5px;
+}
+.earlyWarningReport{
+	padding-bottom: 50px;
+}

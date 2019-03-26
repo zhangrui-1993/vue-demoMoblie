@@ -1,0 +1,33 @@
+.page2{
+    width: 100%;
+    overflow: hidden;
+    padding-bottom: 40px;
+    .text{
+        width: 100%;
+        text-align: center;
+        margin-top: 40px;
+        overflow: hidden;
+        .section2-1{
+            display: block;
+            width: 7.44rem;
+            margin: 30px auto;
+        } 
+    } 
+    .layered{
+        position: relative;
+        width: 100%;
+
+    }
+    .layered.heartRate{
+        width: 7.6rem;
+        padding:0 1.2rem;
+        display: flex;
+        justify-content:space-between;
+    }
+    .layered.heartRate img{
+        display: block;
+        width: 2rem;
+        height: 2rem;
+        /* flex-direction:row; */
+    }
+}
